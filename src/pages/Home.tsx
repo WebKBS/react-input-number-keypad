@@ -1,5 +1,6 @@
 import DecimalInput from '@/components/Inputs/DecimalInput';
 import NumericInput from '@/components/Inputs/NumericInput';
+import TestInput from '@/components/Inputs/TestInput';
 
 const Home = () => {
   return (
@@ -14,6 +15,10 @@ const Home = () => {
           <div>
             <h2 className="mb-2">Decimal</h2>
             <DecimalInput />
+          </div>
+          <div>
+            <h2 className="mb-2">TEST</h2>
+            <TestInput />
           </div>
         </div>
       </div>
